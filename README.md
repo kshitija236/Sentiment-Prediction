@@ -2,6 +2,7 @@
 
 Project Description:
 This project uses Deep Learning techniques to classify reviews(for various products) into five sentiment classes. 5 for most positive sentiment and 1 for worst sentiment.
+All the DL models used are built and trained using Keras.
 
 NOTE: 
 1. All the data files and word embedding files that are used in this project have been uploaded to my google drive. For using these I mount the google drive in the colab 
