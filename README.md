@@ -28,24 +28,21 @@ class has been used. After oversampling all classes have same number of training
 1. conversion to lower case 
 2. removal of punctuations
 3. tokenization and encoding according to tokenizer
+4. padding
 
 ## Word Embeddnigs 
-Different methods for word embeddings have been tried. To use any embedding comment out the code cells for other embeddings except the one to be used. In code.ipynb currently 
-GloVe is used.
+Different methods for word embeddings have been tried. To use a particular embedding pass the embedding_type argument to the get_embddding function.
 1. GloVe
 2. Word2Vec
 3. Fasttext
-4. Without pretrained embeddings
 
-Note: For using pretrained embeddings corresponding file I have uploaded the corresponding files in my google drive.
 
 ## Architectures tried
 1. Feedforward Neural Networks (FFNN)
 2. Recurrent Neural Networks (RNN)
 3. Transformer Network
-4. Padding
 
-Any of the above three architechtures can be used by commenting out code cells for the other two only. By default Bi-GRU a type of RNN is used in code.ipynb file.
+Any of the above three architechtures can be used by passing the model_type argument in get_model function.
 
 ## Evaluation Metric
 Accuracy, precision, recall and F1 score has been used for evaluating performance of the model. 
