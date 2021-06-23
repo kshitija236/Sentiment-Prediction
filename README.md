@@ -43,6 +43,7 @@ Note: For using pretrained embeddings corresponding file I have uploaded the cor
 1. Feedforward Neural Networks (FFNN)
 2. Recurrent Neural Networks (RNN)
 3. Transformer Network
+4. Padding
 
 Any of the above three architechtures can be used by commenting out code cells for the other two only. By default Bi-GRU a type of RNN is used in code.ipynb file.
 
