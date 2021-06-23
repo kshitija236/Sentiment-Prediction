@@ -31,7 +31,7 @@ class has been used. After oversampling all classes have same number of training
 4. padding
 
 ## Word Embeddnigs 
-Different methods for word embeddings have been tried. To use a particular embedding pass the embedding_type argument to the get_embddding function.
+Different methods for word embeddings have been tried. To use a particular embedding pass the embedding_type argument to the get_embeddding function.
 1. GloVe
 2. Word2Vec
 3. Fasttext
