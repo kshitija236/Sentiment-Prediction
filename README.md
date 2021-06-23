@@ -49,7 +49,7 @@ Any of the above three architechtures can be used by commenting out code cells f
 Accuracy, precision, recall and F1 score has been used for evaluating performance of the model. 
 Confusion matrix has also been shown.
 
-## LIME for exaplainability:
+## LIME for explainability:
 LIME (Locally Interpretable Model-Agnostic Explanations), which is an algorithm that can explain the predictions of any classifier or regressor in a faithful way, by 
 approximating it locally with an interpretable model.
 Defintion source: https://www.analyticsvidhya.com/blog/2017/06/building-trust-in-machine-learning-models/
