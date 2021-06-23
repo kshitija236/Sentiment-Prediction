@@ -27,6 +27,7 @@ class has been used. After oversampling all classes have same number of training
 ## Preprocessing
 1. conversion to lower case 
 2. removal of punctuations
+3. tokenization and encoding according to tokenizer
 
 ## Word Embeddnigs 
 Different methods for word embeddings have been tried. To use any embedding comment out the code cells for other embeddings except the one to be used. In code.ipynb currently 
