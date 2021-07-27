@@ -24,7 +24,8 @@ session and download it from there.
 Countplot of reviews present for different classes in training data showed that data is highly imbalanced with around 70% data for class 5 only. Three techniques have been tested to tackle imbalance data 
 1. Random oversampling 
 2. Undersampling 
-3. SMOTE
+3. SMOTE  
+
 By default SMOTE is used. To use any other method, comment out the code for SMOTE and uncomment the required code cell. 
 
 ## Preprocessing
