@@ -43,7 +43,7 @@ Different methods for word embeddings have been tried. To use a particular embed
 
 ## Architectures tried
 1. Feedforward Neural Networks (FFNN)
-2. Recurrent Neural Networks (RNN)
+2. Recurrent Neural Networks (vanilla RNN, LSTM, Bi-LSTM, GRU, Bi-GRU)
 3. Transformer Network
 
 Any of the above three architechtures can be used by passing the model_type argument in get_model function.
